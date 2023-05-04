@@ -1,0 +1,61 @@
+/*read more on w3schools, Bootsrap*/
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-color:  #f6faff;
+}  
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 24.99%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 49.99%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 74.99%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*='col-']{
+    border:1px solid red;
+    width: 100%;
+     
+}
+
+
+@media only screen and (min-width: 600px) {
+    [class*='col-']{
+        border:1px solid blue;
+        float: left;
+    }
+}
+
+.text-bg-aquamarine{
+    background-color:aquamarine
+}
+
+
+
+.profile{
+    max-width: 600px;
+    margin: auto;
+    /* background-color: aquamarine !important; */
+    padding: 10px;
+    margin-top: 3rem;
+}
+
+.profile i{
+    padding :0.5rem; 
+    /* #4f2095 */
+    color: #e4e2f4; 
+}
+
+.profile i:hover,.profile .active{
+
+    color: #fc6440 !important; 
+}
+ 
